@@ -8,10 +8,10 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<form action="#" method="post">
+	<form method="post">
 		<div>
 			<label for="name">Name*</label>
-			<input type="name" name="name" id="name" required>
+			<input type="text" name="name" id="name" required>
 		</div>
 		<div>
 			<label for="email">Email*</label>
@@ -19,15 +19,15 @@
 		</div>
 		<div>
 			<label for="gender">Gender*</label>
-			<input type="radio" name="gender" value="Male">Male
-			<input type="radio" name="gender" value="Female">Female
+			<input type="radio" name="gender" value="Male" required>Male
+			<input type="radio" name="gender" value="Female" required>Female
 		</div>
 		<div>
 			<label for="laptop">Laptop Brands</label>
-			<select>
-				<option id="laptop">Apple</option>
-				<option id="laptop">Asus</option>
-				<option id="laptop">HP</option>
+			<select id="laptop" name="laptop">
+				<option value="Apple">Apple</option>
+				<option value="Asus">Asus</option>
+				<option value="HP">HP</option>
 			</select>
 		</div>
 		<div>
